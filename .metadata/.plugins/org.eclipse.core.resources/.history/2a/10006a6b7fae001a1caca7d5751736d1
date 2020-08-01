@@ -1,0 +1,15 @@
+package aplicacao;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		
+		for(int i = 0; i<=1000;i++) {
+			int soma =i;
+			System.out.println(soma+1);
+		}
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package aplicacao;
+
+import entidade.Conta;
+import entidade.ContaJuridica;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+	Conta acc = new Conta(1001,"Antonio", 0.0);
+	ContaJuridica bacc = new ContaJuridica(1002,"Maria",0.0, 500.0);
+		
+		
+		
+	}
+}

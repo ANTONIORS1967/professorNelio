@@ -1,0 +1,30 @@
+package entidade;
+
+public class ContaJuridica extends Conta{
+
+	private Double limiteDeEmprestimo;
+	
+	public ContaJuridica() {
+		super();
+	}
+
+	public ContaJuridica(Integer numero, String suporte, Double saldo, Double limiteDeEmprestimo) {
+		super(numero, suporte, saldo);
+		this.limiteDeEmprestimo = limiteDeEmprestimo;
+	}
+
+	public Double getLimiteDeEmprestimo() {
+		return limiteDeEmprestimo;
+	}
+
+	public void setLimiteDeEmprestimo(Double limiteDeEmprestimo) {
+		this.limiteDeEmprestimo = limiteDeEmprestimo;
+	}
+	
+	public void emprestimo(double montante) {
+		if(montante<= limiteDeEmprestimo) {
+		saldo += montante - 10.0;
+		}
+	}
+		
+}

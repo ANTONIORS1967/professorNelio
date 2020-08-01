@@ -1,0 +1,21 @@
+package ws_eclipse;
+
+
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int soma,num1,num2;
+		
+		num1 = 10;
+		num2 = 30;
+		
+		soma = num1 + num2;
+		
+		System.out.printf("SOMA = " +  soma);
+		
+		
+	
+		
+	}
+}

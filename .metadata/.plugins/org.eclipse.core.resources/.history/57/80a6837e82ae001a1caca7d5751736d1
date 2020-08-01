@@ -1,0 +1,17 @@
+package aplicacao;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		int fatorial =0;
+		for(int i = 1; i<10;i++) {
+			fatorial = fatorial*i;
+			
+			System.out.println("fatoiral de "+i+" é "+fatorial);
+			
+		}
+
+	}
+
+}

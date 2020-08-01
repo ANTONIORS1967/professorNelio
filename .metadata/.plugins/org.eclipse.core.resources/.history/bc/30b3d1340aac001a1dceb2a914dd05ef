@@ -1,0 +1,25 @@
+package ws_eclipse;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double pi = 3.14159, r, A;
+
+		 r = sc.nextDouble();
+		 
+		
+		
+		A = pi* Math.pow(r, r);
+		
+		System.out.println(A);
+		
+		sc.close();
+		
+	
+		
+	}
+}

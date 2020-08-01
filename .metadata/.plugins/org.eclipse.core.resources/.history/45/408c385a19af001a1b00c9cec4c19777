@@ -1,0 +1,26 @@
+package application;
+
+import java.text.SimpleDateFormat;
+
+public class Program {
+
+
+
+	public static void main(String[] args) {
+				
+
+		SimpleDateFormat asdf1 = new SimpleDateFormat("dd/MM/yyy");
+		SimpleDateFormat asdf2 = new SimpleDateFormat("dd/MM/yyy HH:mm:ss");
+		
+		System.out.println(asdf1);
+		System.out.println(asdf2);
+		
+		
+		
+		
+		
+			}	
+		
+	}
+
+

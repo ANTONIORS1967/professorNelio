@@ -1,0 +1,45 @@
+package entidade;
+
+public class Conta {
+	private Integer numero;
+	private String suporte;
+	protected Double saldo;
+	
+	public Conta() {	
+	}
+
+	public Conta(Integer numero, String suporte, Double saldo) {
+		this.numero = numero;
+		this.suporte = suporte;
+		this.saldo = saldo;
+	}
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public void setNumero(Integer numero) {
+		this.numero = numero;
+	}
+
+	public String getSuporte() {
+		return suporte;
+	}
+
+	public void setSuporte(String suporte) {
+		this.suporte = suporte;
+	}
+
+	public Double getSaldo() {
+		return saldo;
+	}
+
+	public void saque(double montante) {
+		saldo -= montante;
+	}
+	
+	public void deposito(double montante) {
+		saldo -= montante;
+	}
+}
+

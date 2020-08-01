@@ -1,0 +1,17 @@
+package application;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+		list.add("Maria");
+		
+		
+		System.out.println(list.size());
+	}
+
+}

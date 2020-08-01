@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Users\Antônio Rodrigues\Desktop\Udemy\Professr Nelio\.metadata\.plugins\org.eclipse.jdt.core
+2371745278.index
+1666421970.index
+4219581550.index
+1108393166.index
+4200252776.index
+3774450126.index
+3713825676.index
+789344348.index
+3729101479.index
